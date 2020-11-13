@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <section>
+            <h1 class="title">Hello</h1>
+            <button class="button-center" onclick="openPopup()">Відкрити Popup</button>
+        </section>
+    </main>
+
+    <div id="popup" class="center-1"  onclick="closePopup()">
+        <div class="center-2">
+            <div id="popup-content" class="center-3" onclick="noClosePopup()">
+                <h1 class="title">Popup</h1>
+                <button class="button-center" onclick="closePopup()">Закрити</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="src/script.js"></script>
+    </footer>
+</body>
+</html>
