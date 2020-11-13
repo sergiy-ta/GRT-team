@@ -1,0 +1,22 @@
+[
+  {
+    "rpc": [
+      {
+        "text": "998431",
+        "xpath": "/html/body/main[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/p[1]"
+      }
+    ],
+    "price": [
+      {
+        "text": "4214,75",
+        "xpath": "/html/body/main[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[1]/h3[1]/span[1]"
+      }
+    ],
+    "currency": [
+      {
+        "text": "$",
+        "xpath": "/html/body/main[1]/div[2]/div[1]/div[2]/div[2]/div[3]/div[1]/h3[1]/span[1]"
+      }
+    ]
+  }
+]
